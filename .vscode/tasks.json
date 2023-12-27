@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compileTemplates",
+      "command": "make",
+      "args": ["dev"],
+      "type": "shell"
+    }
+  ]
+}

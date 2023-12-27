@@ -1,0 +1,21 @@
+package base
+
+templ Html() {
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+			<title>Foo</title>
+			<link href="/assets/favicon.ico" rel="icon" type="image/x-icon"/>
+			<link rel="stylesheet" href="/assets/base.css"/>
+			<script src="/assets/dark.js"></script>
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet"/>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+		</head>
+		<body class="dark:bg-gray-900 dark:text-white antialiased">
+			{ children... }
+		</body>
+	</html>
+}

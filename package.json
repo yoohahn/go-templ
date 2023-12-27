@@ -1,0 +1,15 @@
+{
+  "name": "go-tmpl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Johan Nilsson",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tailwindcss -o assets/base.css",
+    "build": "tailwindcss -m -o assets/base.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "packageManager": "yarn@4.0.2"
+}

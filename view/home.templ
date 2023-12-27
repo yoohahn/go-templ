@@ -1,0 +1,14 @@
+package view
+
+import "github.com/yoohahn/go-templ/view/base"
+import "github.com/yoohahn/go-templ/model"
+import "github.com/yoohahn/go-templ/view/header"
+
+// import "github.com/yoohahn/go-templ/view/component"
+
+templ ShowRoot(usr model.User) {
+	@base.Html() {
+		@header.ShowHeader(usr)
+		<h1 class="mt-3">Root of the page</h1>
+	}
+}

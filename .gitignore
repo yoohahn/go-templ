@@ -1,0 +1,10 @@
+main
+*_templ.go
+**/*_templ.go
+*.css
+
+node_modules
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*

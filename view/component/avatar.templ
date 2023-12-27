@@ -1,0 +1,7 @@
+package component
+
+import "github.com/yoohahn/go-templ/model"
+
+templ Avatar(usr model.User) {
+	<img class="w-8 h-8 rounded-full" src={ usr.AvatarUrl } alt={ usr.Name }/>
+}
